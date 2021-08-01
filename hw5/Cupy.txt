@@ -1,0 +1,17 @@
+灌好VS C++
+windows kit
+cuda 10.0
+
+安裝conda環境時，直接使用conda install cupy
+程式會幫你降回python 3.6
+
+
+
+pip freeze
+conda uninstall cupy
+pip uninstall cupy-cuda92
+pip uninstall cupy
+
+pip install cupy --no-cache-dir -vvvv
+
+最後一行有點久，等它跑完
